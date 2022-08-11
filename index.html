@@ -580,11 +580,8 @@
 			/* Add configuration calls below this comment */
 			olark.identify('9316-197-10-1941');
 
-			var olarkButton = $('.olark-launch-button')[0];
-			olarkButton.hide();
-
 			$('#cta-button').click(function(){
-				olarkButton.click();
+				olark('api.box.expand');
 			});
 </script>
 
